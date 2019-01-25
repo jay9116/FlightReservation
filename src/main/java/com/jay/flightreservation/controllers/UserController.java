@@ -30,7 +30,7 @@ public class UserController {
 	public String register(@ModelAttribute User user) {
 		System.out.println("Data is" + user);
 		userRepository.save(user);
-		return "login/login";
+		return "login/confirmRegister";
 	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
