@@ -13,15 +13,15 @@ import com.jay.flightreservation.repos.UserRepository;
 @SpringBootTest
 public class FlightReservationApplicationTests {
 
-	
 	@Autowired
 	UserRepository repo;
+
 	@Test
 	public void testuser() {
-		User user=new User();
+		/*User user = new User();
 		user.setEmail("jay");
 		user.setFirstName("jaypatel");
 		user.setLastName("jaypatel");
-		repo.save(user);
-}
+		repo.save(user);*/
+	}
 }
